@@ -21,3 +21,21 @@ class Locators:
 
 
 
+class Locators_Itera:
+    txbx_id_name = "name"
+    txbx_id_phone = "phone"
+    txbx_id_email = "email"
+    txbx_id_password = "password"
+    txbx_id_address = "address"
+    bttn_css_submit = "submit"
+    rd_id_male_gender = "male"
+    rd_id_female_gender = "female"
+
+    #days
+    days_xpath = "(//input[@type='checkbox' and @class='form-check-input'])"
+
+    #DD
+    ddw_class_country = "custom-select"
+
+    #Years of Experience
+    rd_years_xpath = "//*[contains(@for,'year')]"
